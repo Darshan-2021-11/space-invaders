@@ -166,7 +166,7 @@ while running:
                 player.currPlayerHealth -= enemy.damage
 
     if(player.playerHealth < 0):
-        running = false
+        running = False
         game_over_text(screen)
     pygame.display.update()
 
