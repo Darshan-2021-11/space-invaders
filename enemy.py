@@ -12,7 +12,7 @@ class Enemy1(Enemy):
         self.dy = 35
         self.boolh = False
 
-        self.enemyImg = pygame.image.load('images\\enemy1.png')
+        self.enemyImg = pygame.image.load('images/enemy1.png')
 
     def renderImg(self, surface):
         surface.blit(self.enemyImg, (self.x, self.y))
@@ -28,7 +28,7 @@ class Enemy1(Enemy):
     
 
 class Enemy2(Enemy):
-    laserImg = pygame.image.load('images\\red laser.png')
+    laserImg = pygame.image.load('images/red laser.png')
     def __init__(self, x=0, y=0, dx=0, powerup=0):
         super().__init__(x, y)
         self.dx = dx
@@ -37,7 +37,7 @@ class Enemy2(Enemy):
         self.health = 10
         self.powerup = powerup
 
-        self.enemyImg = pygame.image.load('images\\enemy2.png')
+        self.enemyImg = pygame.image.load('images/enemy2.png')
 
         self.lx = 0
         self.ly = 600

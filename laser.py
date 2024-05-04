@@ -1,7 +1,7 @@
 import pygame
 
 class Laser:
-    laserImg = pygame.image.load('images\\laser.png')
+    laserImg = pygame.image.load('images/laser.png')
     def __init__(self, dy=15):
         self.lx = 0
         self.ly = 600
